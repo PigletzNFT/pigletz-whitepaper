@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Pigletz](README.md)
