@@ -33,14 +33,18 @@ Pigletz is a collection of ERC721 tokens aka NFTs with the following characteris
 
 ![Not only NFT](.gitbook/assets/nft.png)
 
-[Learn more ...](./#nft)
-
-{% content-ref url="pigletz/nft.md" %}
-[nft.md](pigletz/nft.md)
-{% endcontent-ref %}
+[<mark style="color:blue;">Learn more ...</mark>](pigletz/nft.md)<mark style="color:blue;"></mark>
 
 ### Game
 
 Unlike many other NFT projects Pigletz is not only offering beautiful pictures to the users but an entire game experience where the Piglet is the main character.&#x20;
 
+* Level up to reveal Piglet traits and improve base mining rate.
+* Collect and apply boosters to increase token production speed even further.
+* Monitor and manage your Pigletz through our convenient Dapp.
+
 ![](https://pigletz.com/assets/images/gamification-illustration.svg)
+
+### Tokenomics
+
+![](https://pigletz.com/assets/images/tokenomics-step-1.png)
