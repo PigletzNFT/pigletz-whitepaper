@@ -61,6 +61,16 @@ Our Pigletz produce their own token called PiFi. PiFi tokens are used for leveli
 [tokenomics.md](pigletz/tokenomics.md)
 {% endcontent-ref %}
 
+### Real World
+
+Pigletz is the first project introducing a protocol where an NFT can jump between the MetaVerse and the Real World. We call this Materialization. Reverse process is also possible and we call it Digitalization.&#x20;
+
+![Materialization / Digitalization](.gitbook/assets/physical-object-illustration.png)
+
+{% content-ref url="pigletz/materialization.md" %}
+[materialization.md](pigletz/materialization.md)
+{% endcontent-ref %}
+
 ### DeFi
 
 Pigletz has a utility as a Piggy Bank. It also mints its own token. We have designed additional DeFi services which can be used within the Pigletz ecosystem.
@@ -81,6 +91,20 @@ We work on creating a new kind of a world acting as a bridge between the MetaVer
 
 ## Contacts
 
-[https://pigletz.com/](https://pigletz.com)
+{% embed url="https://pigletz.com" %}
+Web
+{% endembed %}
+
+{% embed url="https://discord.gg/ffCBEy7H5B" %}
+Discord
+{% endembed %}
+
+{% embed url="https://t.me/+A-ruHvQV4mQyMzE8" %}
+Telegram
+{% endembed %}
+
+{% embed url="https://twitter.com/PigletzNFT" %}
+Twitter
+{% endembed %}
 
 © 2021-2022 Pigletz

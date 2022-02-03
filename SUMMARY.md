@@ -4,7 +4,7 @@
   * [NFT](pigletz/nft.md)
   * [Game](pigletz/game.md)
   * [Tokenomics](pigletz/tokenomics.md)
-  * [Physical](pigletz/physical.md)
+  * [Materialization](pigletz/materialization.md)
   * [DeFi](pigletz/defi.md)
   * [MetaVerse](pigletz/metaverse.md)
   * [Team](pigletz/team.md)
