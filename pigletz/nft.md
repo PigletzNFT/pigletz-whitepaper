@@ -128,7 +128,7 @@ After that we post processed all renders to achieve the final result:
 
 ![](../.gitbook/assets/QmQkUuNL7NcXcZCeQsaCc21dXWAQXbb9VkC9DA6EGp7qn1F4041.png)
 
-## ERC721
+## The Blockchain
 
 NFT or Non Fungible Token is a token living in the blockchain, described by s Smart Contract following the [ERC721 standard](https://eips.ethereum.org/EIPS/eip-721).&#x20;
 
@@ -142,6 +142,12 @@ Pigletz resides at the moment in the [Binance Smart Chain blokchain](https://ope
 The contract utilizes the [OpenZeppelin ](https://openzeppelin.com/contracts/)framework which is a de facto standard for EVM compatible blockchains.
 
 The meta data if the Pigletz is uploaded to the [IPFS](https://ipfs.io) which gives higher level of decentralization and security to our users. For example the first minted piglet #4041 can be found here: [https://ipfs.io/ipfs/QmZ88agv3zymNctxFtraparboWZ8o2jSxV6T6XnFThYVBJ](https://ipfs.io/ipfs/QmZ88agv3zymNctxFtraparboWZ8o2jSxV6T6XnFThYVBJ)
+
+### Minting
+
+The Minting process for the Pigletz is part of their smart contract. Minting selects a random token ID from all available tokens in the entire set of 12,345 and assigns it to the user. Minting rights are delegated to a specified contract called SalesManager which requires BNB to be sent in exchange of piglet(s). Minting allows 1, 5, 10 or 20 Pigletz to be minted within a single transaction.&#x20;
+
+Discount codes can be passed as well allowing the user to reduce the price from 10% up to 50%. The discount codes can be obtained by engaging with our communities in [Discord](https://discord.gg/ffCBEy7H5B), [Twitter](https://twitter.com/PigletzNFT), [Telegram](https://t.me/+A-ruHvQV4mQyMzE8), [Reddit ](https://www.reddit.com/r/pigletz/)or [Facebook](https://www.facebook.com/PigletzNFT/).
 
 
 
