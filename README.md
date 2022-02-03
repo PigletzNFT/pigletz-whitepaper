@@ -31,9 +31,11 @@ Pigletz is a collection of ERC721 tokens aka NFTs with the following characteris
 * Characteristics get revealed as your Piglet grows
 * Additional 5 celebrity NTF's going to charity
 
-![Not only NFT](.gitbook/assets/nft.png)
+![](.gitbook/assets/nft.png)
 
-[<mark style="color:blue;">Learn more ...</mark>](pigletz/nft.md)<mark style="color:blue;"></mark>
+{% content-ref url="pigletz/nft.md" %}
+[nft.md](pigletz/nft.md)
+{% endcontent-ref %}
 
 ### Game
 
@@ -41,16 +43,38 @@ Unlike many other NFT projects Pigletz is not only offering beautiful pictures t
 
 * Level up to reveal Piglet traits and improve base mining rate.
 * Collect and apply boosters to increase token production speed even further.
-* Monitor and manage your Pigletz through our convenient Dapp.
+* Monitor and manage your Pigletz through our convenient Dapp
 
-![](https://pigletz.com/assets/images/gamification-illustration.svg)
+![](.gitbook/assets/levels.svg)
+
+{% content-ref url="pigletz/game.md" %}
+[game.md](pigletz/game.md)
+{% endcontent-ref %}
 
 ### Tokenomics
 
-![](https://pigletz.com/assets/images/tokenomics-step-1.png)
+Our Pigletz produce their own token called PiFi. PiFi tokens are used for leveling up the piglet, in the DeFi services as well as to order the physicall piglet. In the future PiFi will be part also in our MetaVerse.
+
+![](broken-reference)
+
+{% content-ref url="pigletz/tokenomics.md" %}
+[tokenomics.md](pigletz/tokenomics.md)
+{% endcontent-ref %}
 
 ### DeFi
 
 Pigletz has a utility as a Piggy Bank. It also mints its own token. We have designed additional DeFi services which can be used within the Pigletz ecosystem.
 
-[Learn more ...](pigletz/defi.md)
+![](.gitbook/assets/defi-lending.svg)
+
+{% content-ref url="pigletz/defi.md" %}
+[defi.md](pigletz/defi.md)
+{% endcontent-ref %}
+
+### MetaVerse
+
+We work on creating a new kind of a world acting as a bridge between the MetaVerse and the Real World.&#x20;
+
+{% content-ref url="pigletz/metaverse.md" %}
+[metaverse.md](pigletz/metaverse.md)
+{% endcontent-ref %}
