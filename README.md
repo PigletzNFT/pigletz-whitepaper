@@ -48,3 +48,9 @@ Unlike many other NFT projects Pigletz is not only offering beautiful pictures t
 ### Tokenomics
 
 ![](https://pigletz.com/assets/images/tokenomics-step-1.png)
+
+### DeFi
+
+Pigletz has a utility as a Piggy Bank. It also mints its own token. We have designed additional DeFi services which can be used within the Pigletz ecosystem.
+
+[Learn more ...](pigletz/defi.md)
