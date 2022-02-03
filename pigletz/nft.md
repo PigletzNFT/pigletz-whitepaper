@@ -29,7 +29,104 @@ Not all traits are visible from the beginning (birth of the Piglet).&#x20;
 
 <mark style="color:red;">**Red**</mark> are revealed on level 2
 
-Finnally on level 3 the <mark style="color:green;">**Green**</mark> are shown and this completes the look of the Piglet.
+Finally on level 3 the <mark style="color:green;">**Green**</mark> are shown and this completes the look of the Piglet.
+
+![Level 3 Pigletz](../.gitbook/assets/pigletz-logo.gif)
+
+### Additional Traits
+
+There are also some additional traits such as:
+
+* **Background** - There are 6 different backgrounds - Blue, Green, Orange, Purple, Red, Yellow
+* **Zodiac Signs** - following the Western Zodiac they are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, Pisces
+
+## Production
+
+We followed a long path until we finally achieved the Pigletz we all love.&#x20;
+
+We started with concept art from different artists
+
+![](<../.gitbook/assets/2 (1).jpg>) ![](../.gitbook/assets/3.jpg) ![](../.gitbook/assets/4.jpg) ![](../.gitbook/assets/image\_2021\_09\_07T18\_08\_00\_964Z.png)
+
+And more ...
+
+![](../.gitbook/assets/1.PNG) ![](../.gitbook/assets/image.png) ![](../.gitbook/assets/moni2.jpg) ![](../.gitbook/assets/Skype\_Picture\_2021\_09\_07T05\_20\_22\_876Z.jpeg.png)
+
+...
+
+Next we created 3D models, objects, meshes for all the categories and traits
+
+{% embed url="https://youtu.be/1ZluekmuPCw" %}
+Cinema 4D Modelling
+{% endembed %}
+
+{% embed url="https://youtu.be/40I3BFiN960" %}
+Cinema 4D Rendering
+{% endembed %}
+
+We developed a generator which we used to produce 12,345 different trait combinations based on a rarity table and randomness. For the random function we used the magic seed: 1638504306 which is the Unix Epoch representation of the data December 3, 2021 4:05:06 AM or 12/3/4:5:6.
+
+```python
+"""
+Main
+"""
+from pathlib import Path
+import time
+import click
+from pigletz.discounts_generator import PigletzDiscountsGenerator
+from pigletz.generator import PigletGenerator
+from pigletz.image_optimizer import ImageOptimizer
+from pigletz.post_processing import PigletPostProcessing
+
+
+@click.group()
+def cli() -> None:
+    """
+    Pigletz traits generator. (c) 2021 by Pigletz.com 
+    """
+
+
+@click.command()
+@click.argument("inputfile", required=True)
+@click.option("--limit", default=12345, type=int, help="How many piglets to generate")
+@click.option("--seed", default=1638504306, type=int, help="Seed for the RNG")
+@click.option("--out", help="Output json file")
+def generate(inputfile: str, out: str, limit: int, seed: int):
+    """ Generates json file with traits """
+
+    generator = PigletGenerator.from_json(inputfile, limit, seed)
+    data = generator.generate()
+    generator.save_to_file(out, data)
+
+```
+
+Next we wrote a plugin for Cinema 4D that helped us to render all 12,345 different Pigletz.
+
+```python
+if __name__ == "__main__":
+
+    filename = c4d.storage.LoadDialog(
+        title="Load piglets JSON file", type=c4d.FILESELECTTYPE_ANYTHING, flags=c4d.FILESELECT_LOAD)
+    with open(filename, "rb") as file:
+        data = json.load(file)
+
+    piglets = list(data["population"].keys())
+    piglets.sort()
+
+    start = int(gui.InputDialog(
+        "Start from (0-{limit})?".format(limit=len(piglets)-2), "0"))
+    end = int(gui.InputDialog(
+        "Ending to (1-{limit})?".format(limit=len(piglets)-1), str(len(piglets)-1)))
+
+    processPiglets(piglets[start:end], start, end)
+
+```
+
+Finally we used a rendering farm that rendered 12,345 Pigletz in each 4 variations (for each level). This took about 10 days.&#x20;
+
+After that we post processed all renders to achieve the final result:
+
+![](../.gitbook/assets/QmQkUuNL7NcXcZCeQsaCc21dXWAQXbb9VkC9DA6EGp7qn1F4041.png)
 
 ## ERC721
 
