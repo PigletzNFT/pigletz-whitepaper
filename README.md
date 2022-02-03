@@ -55,7 +55,7 @@ Unlike many other NFT projects Pigletz is not only offering beautiful pictures t
 
 Our Pigletz produce their own token called PiFi. PiFi tokens are used for leveling up the piglet, in the DeFi services as well as to order the physicall piglet. In the future PiFi will be part also in our MetaVerse.
 
-![](broken-reference)
+![](.gitbook/assets/tokenomics-diagrams.webp)
 
 {% content-ref url="pigletz/tokenomics.md" %}
 [tokenomics.md](pigletz/tokenomics.md)
@@ -78,3 +78,9 @@ We work on creating a new kind of a world acting as a bridge between the MetaVer
 {% content-ref url="pigletz/metaverse.md" %}
 [metaverse.md](pigletz/metaverse.md)
 {% endcontent-ref %}
+
+## Contacts
+
+[https://pigletz.com/](https://pigletz.com)
+
+© 2021-2022 Pigletz
