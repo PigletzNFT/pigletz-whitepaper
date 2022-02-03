@@ -6,6 +6,6 @@
   * [Tokenomics](pigletz/tokenomics.md)
   * [Materialization](pigletz/materialization.md)
   * [DeFi](pigletz/defi.md)
-  * [MetaVerse](pigletz/metaverse.md)
+  * [Metaverse](pigletz/metaverse.md)
   * [Team](pigletz/team.md)
   * [Roadmap](pigletz/roadmap.md)

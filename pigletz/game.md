@@ -8,6 +8,8 @@ Pigletz features gamification elements.
 
 Each piglet starts his life in Level 1. There only some traits are visible - gender, body, eyes, mouth, zodiac, background ([see NFT](nft.md)). In order to reveal more of his traits the piglet needs to level up.&#x20;
 
+There are totally 4 levels. Up to level 3 the requirement to level up is to have some amount of PiFi tokens minted. On level 3 all traits are revealed. Level 4 can be achieved only in the Real World ([See Materialization](materialization.md)).
+
 To level up the piglet needs to collect (mint) enough PiFi tokens. PiFi tokens are generated every 24 hours. The amount of the generated PiFi tokens depends on the level of the piglet and the activated boosters.&#x20;
 
 The following table shows the PiFi required for each level:

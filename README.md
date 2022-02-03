@@ -81,12 +81,20 @@ Pigletz has a utility as a Piggy Bank. It also mints its own token. We have desi
 [defi.md](pigletz/defi.md)
 {% endcontent-ref %}
 
-### MetaVerse
+### Metaverse / Hyper Reality
 
-We work on creating a new kind of a world acting as a bridge between the MetaVerse and the Real World.&#x20;
+We work on creating a new kind of a world acting as a bridge between the Metaverse and the Real World.&#x20;
 
 {% content-ref url="pigletz/metaverse.md" %}
 [metaverse.md](pigletz/metaverse.md)
+{% endcontent-ref %}
+
+## Roadmap
+
+See what is coming.
+
+{% content-ref url="pigletz/roadmap.md" %}
+[roadmap.md](pigletz/roadmap.md)
 {% endcontent-ref %}
 
 ## Contacts
