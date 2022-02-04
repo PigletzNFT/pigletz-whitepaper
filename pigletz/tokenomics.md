@@ -2,9 +2,13 @@
 
 ## PiFi
 
+![](../.gitbook/assets/pigletz-token-32.png)
+
 PiFi is a ERC20 / BEP20 token. Its contract is [0xf7405eff16ff7e96898b6b40497a54894fc86c44](https://bscscan.com/token/0xf7405eff16ff7e96898b6b40497a54894fc86c44)
 
 Each piglet mints internal PiFi token every 24 hours.
+
+![PiFi Miner](../.gitbook/assets/tokenomics-step-1.png)
 
 The amount minted is calculated by the formula
 
@@ -35,3 +39,5 @@ PiFi_{max} = Pigletz_{minted} \times 10,000
 $$
 
 After creating the pool we will revoke the minting rights to the PiFi token and Pigletz will be the only generator of new PiFi tokens.&#x20;
+
+![](../.gitbook/assets/tokenomics-diagrams.webp)
