@@ -81,14 +81,6 @@ Pigletz is the first project introducing a protocol where an NFT can jump betwee
 [materialization.md](pigletz/materialization.md)
 {% endcontent-ref %}
 
-### Metaverse / Hyper Reality
-
-We work on creating a new kind of a world acting as a bridge between the Metaverse and the Real World.&#x20;
-
-{% content-ref url="pigletz/metaverse.md" %}
-[metaverse.md](pigletz/metaverse.md)
-{% endcontent-ref %}
-
 ## Roadmap
 
 See what is coming.
